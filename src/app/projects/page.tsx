@@ -90,6 +90,21 @@ const projects = [
   },
 
   {
+  title: "Resume Assistant",
+  description: "Resume Assistant is an AI-powered voice tool that analyzes resumes and provides intelligent answers to common interview questions, helping candidates prepare with confidence.",
+  role: "Built with Flask and Google Generative AI, it supports predefined Q&A, automated resume analysis, and custom document uploads for personalized interview preparation.",
+  period: "",
+  achievements: [
+    " Predefined Q&A for five common interview questions using keyword-based intelligent matching",
+    " Default Resume Analysis for quick insights and personalized responses",
+    " Custom Resume Upload supporting PDF, DOC, and DOCX formats with automatic context switching",
+    " Real-time AI-powered answer generation using Google Generative AI API",
+  ],
+  technologies: ["python", "flask", "google-generative-ai", "PyPDF2", "python-docx", "docx2txt", "resume-analysis", "nlp"],
+  href: "https://github.com/manumishra12/resume_assistant",
+},
+
+  {
     title: "MedOBot",
     description: "Intelligent Medical Assistant for Radiology, Prescriptions, and Psychological Assessment",
     role: "AI chatbot capable of analyzing X-rays, providing prescriptions, and conducting mental health assessments",
